@@ -11,6 +11,6 @@ export default class Services{
 
 
     static GetPokemonDetails(idPokemon){
-        return axios.get(`http://pokeapi.co/api/v2/pokemon/${idPokemon}`)
+        return axios.get(`https://pokeapi.co/api/v2/pokemon/${idPokemon}`)
     }
 }
